@@ -79,7 +79,7 @@ if (count($_FILES) > 0) {
 
 window.addEventListener('load', function(e) {
   document.getElementById('file_form').addEventListener('submit', function(e) {
-    event.preventDefault();
+    e.preventDefault();
     let max_size = document.getElementById('max_file_size').value;  //in bytes
     let file = null;
     let file_size = 0;
