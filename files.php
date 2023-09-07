@@ -19,7 +19,7 @@ if (count($_FILES) > 0) {
   $i = 1;
   foreach ($_FILES as $key => $file_data) {
     if ($file_data['error'] == 0) {
-      //file i upload ok. Check for upload errors 
+      //file i upload ok. Check file type, file size and copy from tmp dir to upload dir 
       $file_name_elems = explode('.', $file_data['name']);
       $file_ext = $file_name_elems[count($file_name_elems) - 1];
       if (in_array($file_ext, $valid_exts) 
