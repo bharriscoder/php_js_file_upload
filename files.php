@@ -1,5 +1,5 @@
 <?php
-//author: brendanmharris@gmail.com
+//author: bharriscoder
 //last mod: 07/09/2023
 //purpose: Implements 3 methods of filesize upload checking (html/js/php)
 
