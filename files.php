@@ -1,7 +1,7 @@
 <?php
 //author: bharriscoder
 //last mod: 07/09/2023
-//purpose: Implements 3 methods of filesize upload checking (html/js/php)
+//purpose: Implements 3 methods of filesize upload checking: html, js and php
 
 ini_set('display_errors', true);
 $max_file_size_kb = 150;
